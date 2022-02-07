@@ -30,16 +30,17 @@ export default {
                 browserInfo.cmd  = '--new-window';
                 break;
             case browser + '@' + version:
-                switch(browser) {
+                switch (browser) {
                     case 'chrome':
-                        browserInfo.path = path.join(process.env.COMMON_RESOURCES_PATH, '/ChromeVersions/Chrome'+version+'/chrome.exe');
+                        browserInfo.path = path.join(process.env.COMMON_RESOURCES_PATH, '/ChromeVersions/Chrome' + version + '/chrome.exe');
                         browserInfo.cmd  = '--new-window';
                         break;
                     case 'firefox':
-                        browserInfo.path = path.join(process.env.COMMON_RESOURCES_PATH, '/MozillaVersions/Mozilla Firefox'+version+'/firefox.exe');
+                        browserInfo.path = path.join(process.env.COMMON_RESOURCES_PATH, '/MozillaVersions/Mozilla Firefox' + version + '/firefox.exe');
                         browserInfo.cmd  = '-new-window';
                         break;
                 }
+                break;
             default:
                 throw new Error('Unsupported browser!');
         }
