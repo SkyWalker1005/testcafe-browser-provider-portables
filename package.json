@@ -1,6 +1,6 @@
 {
   "name": "testcafe-browser-provider-portables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "portables TestCafe browser provider plugin.",
   "repository": "https://github.com/SkyWalker1005/testcafe-browser-provider-portables",
   "homepage": "https://github.com/SkyWalker1005/testcafe-browser-provider-portables",
