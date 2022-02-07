@@ -1,0 +1,47 @@
+{
+  "name": "testcafe-browser-provider-portables",
+  "version": "1.0.0",
+  "description": "portables TestCafe browser provider plugin.",
+  "repository": "https://github.com/SkyWalker1005/testcafe-browser-provider-portables",
+  "homepage": "https://github.com/SkyWalker1005/testcafe-browser-provider-portables",
+  "author": {
+    "name": "lalit.sharma",
+    "email": "lalit.sharma@naukri.com"
+  },
+  "main": "lib/index",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
+  },
+  "keywords": [
+    "testcafe",
+    "browser provider",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.12.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-json-strings": "^7.12.13",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-mocha": "^7.0.0",
+    "publish-please": "^5.5.2",
+    "testcafe-browser-tools": "^2.0.22"
+  }
+}
